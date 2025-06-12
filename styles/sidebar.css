@@ -6,17 +6,17 @@ nav.sidebar {
   margin-right: 1rem;
   align-items: start;
   box-sizing: border-box;
-  padding: 4px;
-
+  padding: 8px;
+  gap: 0.25rem;
   a {
     color: white;
     text-decoration: none;
     background: #44b;
     background-origin: padding-box;
-    gap: 0.25rem;
     width: 25ch;
     padding: 0.5rem;
   }
+
   aClass:hover {
     cursor: pointer;
     background-color: rgb(18, 18, 77);
