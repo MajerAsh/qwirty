@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 nav.sidebar {
   display: flex;
   flex-direction: column;
@@ -5,10 +9,15 @@ nav.sidebar {
   min-width: 25ch;
   list-style: none;
   margin-right: 1rem;
-  align-items: start;
-  box-sizing: border-box;
+  align-items: start
   padding: 8px;
   gap: 0.25rem;
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
   a {
     color: white;

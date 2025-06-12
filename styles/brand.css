@@ -12,7 +12,6 @@
     color: #44b;
   }
   .BS {
-    grid-column: 3 / span 4;
     align-content: center;
     background-color: rgb(194, 32, 32);
     color: white;
