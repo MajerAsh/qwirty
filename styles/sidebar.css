@@ -1,16 +1,24 @@
-.sidebar {
+nav.sidebar {
   display: flex;
   flex-direction: column;
   height: 100vh;
   list-style: none;
   margin-right: 1rem;
-    a {
-      text-decoration: none;
-    }
-  }
+  align-items: start;
+  box-sizing: border-box;
+  padding: 4px;
 
-  li {
-    margin-top: 0.5rem;
-    padding: 0.75rem;
+  a {
+    color: white;
+    text-decoration: none;
+    background: #44b;
+    background-origin: padding-box;
+    gap: 0.25rem;
+    width: 25ch;
+    padding: 0.5rem;
+  }
+  aClass:hover {
+    cursor: pointer;
+    background-color: rgb(18, 18, 77);
   }
 }
