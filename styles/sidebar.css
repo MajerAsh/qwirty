@@ -2,22 +2,23 @@ nav.sidebar {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  min-width: 25ch;
   list-style: none;
   margin-right: 1rem;
   align-items: start;
   box-sizing: border-box;
   padding: 8px;
   gap: 0.25rem;
+
   a {
     color: white;
     text-decoration: none;
-    background: #44b;
     background-origin: padding-box;
     width: 25ch;
     padding: 0.5rem;
+    background: #44b;
   }
-
-  aClass:hover {
+  a:hover {
     cursor: pointer;
     background-color: rgb(18, 18, 77);
   }
