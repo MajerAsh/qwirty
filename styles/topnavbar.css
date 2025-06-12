@@ -1,0 +1,22 @@
+.navcontainer {
+  menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding: 4px;
+    font-size: 16px;
+    font-family: Robo;
+    color: #ffffff;
+    background-color: 4444BB;
+  }
+  .screen-lg {
+    justify-content: flex-end;
+  }
+}
