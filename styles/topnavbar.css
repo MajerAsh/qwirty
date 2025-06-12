@@ -1,8 +1,14 @@
 .navcontainer {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   menu {
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
   a {
     text-decoration: none;
@@ -17,6 +23,7 @@
     background-color: 4444BB;
   }
   .screen-lg {
-    justify-content: flex-end;
+    grid-column: 3;
+    align-self: end;
   }
 }
