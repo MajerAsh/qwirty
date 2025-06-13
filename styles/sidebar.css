@@ -1,34 +1,27 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-nav.sidebar {
+.sidebar {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-width: 25ch;
-  list-style: none;
-  margin-right: 1rem;
-  align-items: start
-  padding: 8px;
+  justify-content: space-between;
+  max-width: 20vw;
+  padding: 0.25rem;
   gap: 0.25rem;
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
   a {
+    min-width: 25ch;
     color: white;
     text-decoration: none;
     background-origin: padding-box;
     width: 25ch;
     padding: 0.5rem;
     background: #44b;
+    gap: 0.25rem;
   }
-  a:hover {
-    cursor: pointer;
-    background-color: rgb(18, 18, 77);
-  }
+}
+a:hover {
+  cursor: pointer;
+  background-color: rgb(18, 18, 77);
 }

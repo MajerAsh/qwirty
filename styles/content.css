@@ -8,11 +8,23 @@
   margin-block-start: 1em;
   margin-block-end: 1em;
   padding-inline-start: 40px;
+
+  ul {
+    list-style: none;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+  }
+  li {
+    list-style: none;
+  }
   .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-auto-rows: 25rem;
     gap: 0.5rem;
+
     .product {
       display: flex;
       flex-direction: column;
@@ -21,6 +33,7 @@
         background: #44b;
         padding: 1rem 0.5rem;
       }
+
       img {
         flex: 1;
         height: 0%;
@@ -36,28 +49,30 @@
           display: flex;
           gap: 1ch;
         }
-        .material-symbols-sharp {.material-symbols-sharp {
-    font-family: 'Material Symbols Sharp';
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    white-space: nowrap;
-    word-wrap: normal;
-        }
-        button {
-          color: white;
-          border: 0;
-          background-color: #44b;
-          border-radius: 100%;
-          width: 2.5rem;
-          height: 2.5rem;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-              padding-block: 1px;
-    padding-inline: 6px;
+        .material-symbols-sharp {
+          .material-symbols-sharp {
+            font-family: "Material Symbols Sharp";
+            font-weight: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            white-space: nowrap;
+            word-wrap: normal;
+          }
+          button {
+            color: white;
+            border: 0;
+            background-color: #44b;
+            border-radius: 100%;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-block: 1px;
+            padding-inline: 6px;
+          }
         }
       }
     }
