@@ -1,19 +1,30 @@
-footer {
-  flex: 0;
-  margin-top: auto;
-  background-color: rgb(202, 202, 204);
-  text-align: center;
-  padding: 1rem;
-  .page {
-        background: var(--fg);
-    color: white;
-    padding: 2rem 0.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-  }
+.page {
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  background-color: #44b;
+  color: white;
+  padding: 2rem 0.5rem;
+  display: flex;
   section {
     display: block;
+    h2 {
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-bottom: 0.5rem;
+      border-bottom: 2px solid white;
+      padding: 0.25rem 0;
+    }
+    menu {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
